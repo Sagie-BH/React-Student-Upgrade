@@ -33,7 +33,7 @@ const Student = ({ user }) => {
           <li className="list-group-item">Gender: {user.gender}</li>
           <li className="list-group-item">Cell: {user.cell}</li>
           <li className="list-group-item">email: {user.email}</li>
-          <li style={gradeStyle} className='list-group-item'>Grade: {grade} </li>
+          <li style={gradeStyle} className='list-group-item'><span style={{color: 'white'}}>Grade: </span>{grade} </li>
         </ul>
       </div>
     </div>
